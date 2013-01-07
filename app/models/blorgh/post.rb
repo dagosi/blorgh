@@ -10,7 +10,6 @@ module Blorgh
     private
       def set_author
         self.author = User.find_or_create_by_name(author_name)
-      end
-    
+      end    
   end
 end
