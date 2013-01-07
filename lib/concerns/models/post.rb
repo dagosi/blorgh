@@ -1,6 +1,7 @@
 require 'active_support/concern'
 
-module Blorgh::Concerns::Models::Post extend ActiveSupport::Concern
+module Blorgh::Concerns::Models::Post
+  extend ActiveSupport::Concern
  
   # 'included do' causes the included code to be evaluated in the
   # conext where it is included (post.rb), rather than be
