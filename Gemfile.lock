@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     blorgh (0.0.1)
+      jquery-rails
       rails (~> 3.2.8)
 
 GEM
