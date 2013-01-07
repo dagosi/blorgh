@@ -1,3 +1,5 @@
+require 'active_support/concern'
+
 module Blorgh::Concerns::Models::Post extend ActiveSupport::Concern
  
   # 'included do' causes the included code to be evaluated in the
